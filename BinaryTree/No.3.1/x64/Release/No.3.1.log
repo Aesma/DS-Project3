@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/11/13 19:54:42。
+     1>项目“G:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\No.3.2\No.3.1\No.3.1.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing myclass.h...
+         Uic'ing myclass.ui...
+         Rcc'ing myclass.qrc...
+     1>RCC : warning : No resources in 'G:\浣滀笟浠€涔堢殑鍚鏁版嵁缁撴瀯\瀹炰範涓?111151-07-鍒樿嫳鍗揬No.3.2\No.3.1\myclass.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_myclass.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_myclass.cpp, GeneratedFiles\Release\moc_myclass.cpp.
+       ClCompile:
+         G:\VS2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt FindParent.cpp GeneratedFiles\Release\moc_myclass.cpp main.cpp MakeTree.cpp myclass.cpp
+         FindParent.cpp
+         moc_myclass.cpp
+         main.cpp
+         MakeTree.cpp
+         myclass.cpp
+         正在生成代码...
+     1>g:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\no.3.2\no.3.1\binarytree.h(242): warning C4715: “BinaryTree<char>::Find”: 不是所有的控件路径都返回值
+         G:\VS2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_myclass.cpp
+         qrc_myclass.cpp
+       Link:
+         G:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\No.3.2\x64\Release\\No.3.2.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.0\5.6\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"G:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\No.3.2\x64\Release\No.3.2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\No.3.2\x64\Release\No.3.2.lib" /MACHINE:X64 x64\Release\FindParent.obj
+         x64\Release\qrc_myclass.obj
+         x64\Release\moc_myclass.obj
+         x64\Release\main.obj
+         x64\Release\MakeTree.obj
+         x64\Release\myclass.obj
+         No.3.1.vcxproj -> G:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\No.3.2\x64\Release\No.3.2.exe
+     1>已完成生成项目“G:\作业什么的吧\数据结构\实习三-111151-07-刘英卓\No.3.2\No.3.1\No.3.1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.07
